@@ -32,10 +32,8 @@ sudo ./captive.sh <interface name>
 ```
 
 #### Increase aggressiveness!
-Install [hostapd-wpe]
+Install [hostapd-wpe](https://github.com/OpenSecurityResearch/hostapd-wpe.git)
 ```sh
 sudo hostapd-wpe /etc/hostapd/hostapd.conf -k
 ```
 
-[//]:
-	[hostapd-wpe]: <https://github.com/OpenSecurityResearch/hostapd-wpe.git>
