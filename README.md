@@ -37,5 +37,5 @@ Install [hostapd-wpe]
 sudo hostapd-wpe /etc/hostapd/hostapd.conf -k
 ```
 
-
+[//]:
 	[hostapd-wpe]: <https://github.com/OpenSecurityResearch/hostapd-wpe.git>
