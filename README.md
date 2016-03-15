@@ -7,8 +7,12 @@ Using a bunch of cool techniques and intrinsic design loopholes we can advertise
 #### How 2 Setup
 
 #####Install hostapd, dnsmasq and a web server of your choice( I will be using nginx)
+```sh
 apt-get install hostapd dnsmasq nginx
+```
+```sh
 pacman -S hostapd dnsmasq nginx
+```
 
 ##### Set up hostapd (in hostapd.conf)
 Copy to /etc/hostapd/hostapd.conf
@@ -23,4 +27,15 @@ Sample ones in html folder
 
 ##### Set up ip address
 Run captive.sh
-./captive.sh <interface name>
+```sh
+sudo ./captive.sh <interface name>
+```
+
+#### Increase aggressiveness!
+Install [hostapd-wpe]
+```sh
+sudo hostapd-wpe /etc/hostapd/hostapd.conf -k
+```
+
+
+	[hostapd-wpe]: <https://github.com/OpenSecurityResearch/hostapd-wpe.git>
