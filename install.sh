@@ -1,3 +1,4 @@
+echo "Entering Sudo"
 sudo -i
 apt-get install hostapd dnsmasq nginx
 cp hostapd.conf /etc/hostapd/hostapd.conf
